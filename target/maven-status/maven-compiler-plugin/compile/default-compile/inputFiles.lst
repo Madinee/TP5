@@ -1,6 +1,11 @@
+/home/madine/workspace/TP5/src/main/java/com/Ensim/TP5/model/Features.java
 /home/madine/workspace/TP5/src/main/java/com/Ensim/TP5/model/Address.java
 /home/madine/workspace/TP5/src/main/java/com/Ensim/TP5/controller/AddressController.java
+/home/madine/workspace/TP5/src/main/java/com/Ensim/TP5/model/Geometry.java
+/home/madine/workspace/TP5/src/main/java/com/Ensim/TP5/model/Properties.java
 /home/madine/workspace/TP5/src/main/java/com/Ensim/TP5/controller/MeteoController.java
+/home/madine/workspace/TP5/src/main/java/com/Ensim/TP5/model/Coordinates.java
+/home/madine/workspace/TP5/src/main/java/com/Ensim/TP5/model/DataResult.java
 /home/madine/workspace/TP5/src/main/java/com/Ensim/TP5/Tp5Application.java
 /home/madine/workspace/TP5/src/main/java/com/Ensim/TP5/controller/Adresse_FormulaireContrller.java
 /home/madine/workspace/TP5/src/main/java/com/Ensim/TP5/controller/HelloWorldController.java
