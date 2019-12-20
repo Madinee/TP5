@@ -33,10 +33,21 @@ etape20: lorsqu'on fait une requête SELECT sur la table Adresse on voit tout le
 etape23: l'annotation @Autowired  permet de spécifier une variable d'instance à renseigner par Spring.
          il permet aussi de faire l’injection de dépendances entre les beans de l’application
 
-etape30: par copie du lien dans le header du fichier html
+etape30: par copie du lien bootstrap dans le header du fichier html
 
-
-
+etape6: - oui il faut une clé API pour le DarkSky
+		- il faut appeler l'URL https://api.darksky.net/forecast/clé/lat,lon
+		- il faut utiliser la methode get
+		- dans temperature
+		- dans le daily
+		
+lien github: 	
+		
+		
+		
+		
+		
+		
 https://rpouiller.developpez.com/tutoriels/spring/application-web-spring-hibernate/#LI-A
 
 https://spring.io/guides/gs/serving-web-content/
