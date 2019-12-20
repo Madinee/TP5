@@ -1,29 +1,29 @@
 Sprint Web
 
-  permet de communiquer facilement avec les APIs web
+ 	 permet de communiquer facilement avec les APIs web
   
 Sprint DATA JPA
 
-  permet d'utiliser le sql et les bases de données
+ 	 permet d'utiliser le sql et les bases de données
   
 H2 Database
 
-  systeme de gestion des bases de données relationnelles ecrit en java
+	  systeme de gestion des bases de données relationnelles ecrit en java
   
 Thymeleaf
 
-   utilisé en java afin de generer des pages web en html
+  	 utilisé en java afin de generer des pages web en html
    
 Sprint Boot DevTools
 
-   offre des outils de developpement en plus
+  	 offre des outils de developpement en plus
    
 Hibernate
 
-  permet une connection et une relation avec la base de données 
+  	permet une connection et une relation avec la base de données 
  
 etape13:
-Avec quelle partie du code avons-nous param´etr´e l’url d’appel /greeting ?
+	Avec quelle partie du code avons-nous param´etr´e l’url d’appel /greeting ?
 	a la ligne: @GetMapping ("/greeting")
  
 Avec quelle partie du code avons-nous choisi le fichier HTML `a afficher ?
@@ -31,7 +31,7 @@ Avec quelle partie du code avons-nous choisi le fichier HTML `a afficher ?
 	 return "greeting";,
 		
 Comment envoyons-nous le nom `a qui nous disons bonjour avec le second lien ?
- on envoit le nom en faisant: @RequestParam(name="nameGET", required=false, defaultValue="World")
+	 on envoit le nom en faisant: @RequestParam(name="nameGET", required=false, defaultValue="World")
  
  on dit bonjour à: nomTemplate(par defaut word) mais lorsqu'on ajoute un paramètre il prend le nom de ce paramètre comme Bonjour ENSIM
 
