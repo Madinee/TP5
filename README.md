@@ -1,14 +1,25 @@
 Sprint Web
+
   permet de communiquer facilement avec les APIs web
+  
 Sprint DATA JPA
+
   permet d'utiliser le sql et les bases de données
+  
 H2 Database
+
   systeme de gestion des bases de données relationnelles ecrit en java
+  
 Thymeleaf
+
    utilisé en java afin de generer des pages web en html
+   
 Sprint Boot DevTools
+
    offre des outils de developpement en plus
+   
 Hibernate
+
   permet une connection et une relation avec la base de données 
  
 etape13:
