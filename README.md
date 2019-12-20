@@ -47,9 +47,13 @@ etape23: l'annotation @Autowired  permet de spécifier une variable d'instance �
 etape30: par copie du lien bootstrap dans le header du fichier html
 
 etape6: - oui il faut une clé API pour le DarkSky
+
 		- il faut appeler l'URL https://api.darksky.net/forecast/clé/lat,lon
+		
 		- il faut utiliser la methode get
+		
 		- dans temperature
+		
 		- dans le daily
 		
 lien github: 	
