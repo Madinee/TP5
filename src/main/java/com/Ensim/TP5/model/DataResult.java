@@ -9,11 +9,7 @@ import javax.persistence.Id;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-@Entity
-public class DataResult {
-	@Id
-	@GeneratedValue
-	
+public class DataResult {	
 	private long id;
 	private String type;
 	public long getId() {
