@@ -2,32 +2,11 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
 	<title>Adresses</title>
-	<meta http-equiv="Content-Type" content="text/html ;charset =UTF-8"/>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
-<body >
-<div>
- <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="#">W&D</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="adresse">Form</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="meteo">Météo</a>
-      </li>
-     
-    </ul>
-  </div>
-</nav>
+	<div th:insert="~{fragment :: fragment}">
 </div>
+	<meta http-equiv="Content-Type" content="text/html ;charset =UTF-8"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"></head>
+<body style="width: 80%; margin: auto;">
 	<h1>Les differentes adresses </h1>
 	<ul th:each =" address: ${allAddresses}">
 		<li th:text ="${ address.content }"/>

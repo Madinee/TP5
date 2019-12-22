@@ -2,6 +2,7 @@ package com.Ensim.TP5.controller;
 
 import java.net.InetSocketAddress;
 import java.net.Proxy;
+import java.net.URISyntaxException;
 
 import org.springframework.http.client.SimpleClientHttpRequestFactory;
 import org.springframework.stereotype.Controller;
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.client.RestTemplate;
 
+import com.Ensim.TP5.model.DarkSky;
 import com.Ensim.TP5.model.DataResult;
 
 @Controller
